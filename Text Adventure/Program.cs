@@ -23,7 +23,7 @@ namespace Text_Adventure
             Console.WriteLine("Amelia  | Bass ");
             //to upper uppercases all lettters
             string input = Console.ReadLine();
-            
+
             if (input.ToUpper() == "AMELIA")
             {
                 Console.WriteLine("You choose amelia");
@@ -31,15 +31,15 @@ namespace Text_Adventure
                 Console.WriteLine("Hello! im Amelia. I use she/her pronouns, and i like small and cute things like Hello kitty! Nice to meet you!");
                 Console.WriteLine("How will you introduce your self? friendly or filrty");
                 input = Console.ReadLine();
-                     if (input.ToUpper() == "FRIENDLY")
-                     {
-                   
+                if (input.ToUpper() == "FRIENDLY")
+                {
+
                     Console.WriteLine("You say that you love small and cute things. She emmits a aura of positivity.");
                     Console.WriteLine("Ooh you have good taste");
                     Console.WriteLine("She is slightly untrusting. okay then");
                     FLIRTY = false;
                     LovePoints -= 1;
-                     }
+                }
                 else if (input.ToUpper() == "FILRTY")
                 {
                     Console.WriteLine("You Introduce your self with a bow. You add a flirty comment. You say she's a real sweetie pie as you touch her hand");
@@ -61,7 +61,7 @@ namespace Text_Adventure
                     Console.WriteLine("You ask if she'd eat a metric ton of bannanas over the course of a month and they're peels for one million dollers.");
                     Console.WriteLine("Ugh(is that a reference to the song ugh?) I Love bananas but would hate to eat there peels. but then again one million could buy me all the pink i want.");
                 }
-                if (input.ToUpper() == "BOYS") 
+                if (input.ToUpper() == "BOYS")
                 {
                     Console.WriteLine("You ask if she'd ask out 100 guys for 100,000 dollers");
                     Console.WriteLine("tsk tsk tsk, I love dating and asking people out. I love the high class guys especially.");
@@ -76,7 +76,7 @@ namespace Text_Adventure
                 Console.WriteLine("Our first contestant, i have a question for you, Do you love my love by Kuba oms or we are number one by Lazy Town more?");
                 Console.WriteLine("MY LOVE| WE ARE NUMBER ONE");
                 Console.ReadLine();
-              
+
 
 
                 if (input.ToUpper() == "MY LOVE")
@@ -150,12 +150,27 @@ namespace Text_Adventure
             }
             else if (input.ToUpper() == "Bass")
             {
-                Console.WriteLine("Bass, Please stand up");
+                Console.WriteLine("Bass please step up to the stage");
+                Console.WriteLine("Bass will you introduce yourself?");
+                Console.WriteLine("hI i Am bass. (Very nonchalantly) i like video games, eatting snacks and making art");
+                Console.WriteLine("(He seems to care very little about presentation with his cheeto covered shirt.)");
+                Console.WriteLine("In this game you'll have the chance to ask the contestent 3 questions.");
+                Console.WriteLine("You can ask what are ther favorite games or have they ever evan been on a date(Now he's rubbing off on me!?)");
+                Console.WriteLine("DATE|Games");
+                input = Console.ReadLine();
+                if (input.ToUpper() == "DATE") ;
+                {
 
+                }                
+                    Console.WriteLine("you ask if they ever evan been on a date.(Why is this happening to you as well?)");
+                    Console.WriteLine("Nope. I only came here cuz my mom encoraged me to get out of my shell.");
+            
+                
+                
+                else if (input.ToUpper() == "DATE") ;
+                {
 
-
-
-
+                }
 
 
 

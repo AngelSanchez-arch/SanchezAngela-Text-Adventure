@@ -1,0 +1,19 @@
+Variables allow you to store and change values. Cornerstone of programing. value can change during run time.
+
+Start with variable type, name of variable, set value, comman to do more.
+
+Numberic data types
+Float Decimal point values
+Int Represent whole numbers player Score
+double Floats that take up 2x the space
+
+
+String Represent letters
+char One character Single quotes insted of double quotes
+
+Boolean Dat types
+
+bool true or false
+
+To change values just type nameofvariable = new value
+StringBuilder for text 
