@@ -14,7 +14,7 @@ namespace Text_Adventure
     
             static void Main(string[] args)
         {
-            playername;
+            string playername;
             bool FLIRTY;
             int LovePoints = 0;
             // /r means to go back some rooms
@@ -24,7 +24,7 @@ namespace Text_Adventure
             //only for code you think will crash
             //{
             Console.WriteLine("What's Your name?");
-            string.playername = console.ReadLine();
+            string.playername = Console.ReadLine();
             string str ="My name is  ";
             string other = playername; 
             Console.WriteLine("Welcome to the show." + playername + "-");
