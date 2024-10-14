@@ -17,3 +17,24 @@ bool true or false
 
 To change values just type nameofvariable = new value
 StringBuilder for text 
+
+
+
+
+
+Funtions are cornerstones of programing
+
+Funtions take a x imput in and give a y output
+f(x) takes in and x value
+
+Funtion types
+
+You start off with type what funtion is returning
+if not void
+
+name of funtion 
+main
+start
+
+then partentaties
+Inputs inside. static funtion can't call static funtions. variables run with variable taking priority then switch to other things 

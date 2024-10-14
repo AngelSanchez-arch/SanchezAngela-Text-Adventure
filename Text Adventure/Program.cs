@@ -14,11 +14,25 @@ namespace Text_Adventure
     
             static void Main(string[] args)
         {
+            playername;
             bool FLIRTY;
             int LovePoints = 0;
             // /r means to go back some rooms
             Console.WriteLine("Hello, To Find your crush!");
             Console.WriteLine("I'm your host, Viola");
+            //try
+            //only for code you think will crash
+            //{
+            Console.WriteLine("What's Your name?");
+            string.playername = console.ReadLine();
+            string str ="My name is  ";
+            string other = playername; 
+            Console.WriteLine("Welcome to the show." + playername + "-");
+            //}
+            //catch
+            //{
+             Console.WriteLine("Whats up");
+           // }
             Console.WriteLine("You'll pick between 2 Contestants");
             Console.WriteLine("Amelia  | Bass ");
             //to upper uppercases all lettters
@@ -160,26 +174,70 @@ namespace Text_Adventure
                 input = Console.ReadLine();
                 if (input.ToUpper() == "DATE") ;
                 {
-
-                }                
-                    Console.WriteLine("you ask if they ever evan been on a date.(Why is this happening to you as well?)");
-                    Console.WriteLine("Nope. I only came here cuz my mom encoraged me to get out of my shell.");
-            
-                
-                
-                else if (input.ToUpper() == "DATE") ;
-                {
-
+                Console.WriteLine("you ask if they ever evan been on a date.(Why is this happening to you as well?)");
+                Console.WriteLine("Nope. I only came here cuz my mom encoraged me to get out of my shell.");             
                 }
-
-
-
+                if (input.ToUpper() == "GAMES") ;
+                {
+                 Console.WriteLine("You ask what there favorite games are.");
+                 Console.WriteLine("I like WOW and dnd a lot. SPEND LIKE ALL MY WEEKENDS ON IT.");
+                }
+                 Console.WriteLine("30 Minitues of convorsation(and ads) go by");
+                 Console.WriteLine("Welcome back Onto The next round!");
+                 Console.WriteLine("The next question starts now.");                                  
+                 Console.WriteLine("You could ask him, would he rather get 100,000$ of gaming stuff or get true love or, You can ask him if he can break the laws of phyisic.(Again!?)");
+                 Console.WriteLine("WOULD YOU RATHER|PHYISICS");
+                 input = Console.ReadLine();
+                 if(input.ToUpper() == "WOULD YOU RATHER");
+                {
+                Console.WriteLine("You ask him if he would he rather get 100,000$ of gaming stuff or get true love");
+                Console.WriteLine("eHeheHHHeeEE..... I like the 100,000 Dollers of gaming stuff. feels good."); 
+                }
+                if(input.ToUpper() == "PHYISICS");
+                {
+                Console.WriteLine("You ask him if he can break the laws of phyisic.(You Too?)");
+                Console.WriteLine("Yup. I Certainly can.(Shows his head flyign off)");
+                Console.WriteLine("Okay let's not give our viewers an extesential crisis.");  
+                }
+                Console.WriteLine("The last question is very simple. Do you evan have a crush on him?(WHYYYYYY?!!!!)");
+                Console.WriteLine("YES|NO");
+                input = Console.ReadLine();
+                if(input.ToUpper() == "YES");
+                {
+                Console.WriteLine("Yes. No u. Is that it?");
+                Console.WriteLine("The End LOL?");
+                }
+                if(input.ToUpper() == "NO")
+                {
+                Console.WriteLine("NO. Yes u. Is that it?");
+                Console.WriteLine("The end LOL");   
+                }
+            // type casting
+            // int coolnumber = 30.0231;
+           // float coolnumber = (float)coolnumber;
+           // Console.WriteLine(coolnumber);
 
             }
            // else if (input() == ("Meadow)
            // {
            //   Console.WriteLine("Meadow Pleas staand up");
            // }
+
+           //System.Convert
+          // float coolnumber = Convert.tosingle(coolnumber);
+          //Convert.toint32 for converting to int
+            // Console.Writeline();
+           //string myCoolNumber ="12345" + 1 would add 1 to the end before converstion
+           //myNumberasInt = Convert.ToInt32(myCoolNumber)
+           //Console.WriteLine(myNumberasInt);
+           //Console.ReadKey();
+
+
+
+
+
+
+
         }
 
 
