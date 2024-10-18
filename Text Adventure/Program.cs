@@ -14,7 +14,7 @@ namespace Text_Adventure
     
             static void Main(string[] args)
         {
-            string playername;
+           
             bool FLIRTY;
             int LovePoints = 0;
             // /r means to go back some rooms
@@ -24,7 +24,7 @@ namespace Text_Adventure
             //only for code you think will crash
             //{
             Console.WriteLine("What's Your name?");
-            string.playername = Console.ReadLine();
+            string playername = Console.ReadLine();
             string str ="My name is  ";
             string other = playername; 
             Console.WriteLine("Welcome to the show." + playername + "-");
@@ -133,7 +133,7 @@ namespace Text_Adventure
                     Console.WriteLine("Thanks so much She says( She has left");
                     Console.WriteLine("The End Hey!?!?!? WHER ARER YOU GOING!?!???!?!?");
                 }
-                //if (LovePoints < 3)
+                if (LovePoints < 3)
                 {
                     Console.WriteLine("You want to wait a bit.Shes clearly very nervous");
                     Console.WriteLine("Wahhhh(She fake cries offscreen you run after her");
